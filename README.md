@@ -192,7 +192,6 @@ The suite covers the full lifecycle (subscribe, three days of accrual, redeem fo
 | `grant_role` | ~10,000 |
 | `pause` | ~6,900 |
 
-These numbers swing by a few thousand between runs, because bump searches depend on the addresses and the test keypairs are random. The budgets sit at roughly twice the best case so they catch an added CPI without failing on an unlucky bump.
 
 ## Transaction limits
 
